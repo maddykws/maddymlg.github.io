@@ -1,0 +1,125 @@
+<!-- Used for adding in-document CSS -->
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #6c757d;
+}
+.main {
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 40px 120px 40px;
+    position: relative;
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: -1000000;
+}
+.back1 {
+    flex: 1;
+    background-color: #DE5454;
+}
+.back2 {
+    flex: 1;
+    background-color: #fff;
+}
+
+@media (min-width: 576px) {
+    .col-sm {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-sm-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+.card {
+    border-radius: 5px;
+    border: solid 2px #ededed;
+    padding: 40px 40px;
+    background-color: #fff;
+}
+
+.button {
+    border: solid 2px #d0d0d0;
+    border-radius: 25px;
+    padding: 10px 10px;
+    font-size: 1.4em;
+    color: #000;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.contain {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-3, .col-sm-6, .col-sm-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.center {
+    justify-content: center;
+}
+.inline {
+    display: inline-block;
+}
+.ml-2 {
+    margin-left: 0.5rem;
+}
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.white {
+    color: #fff;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
