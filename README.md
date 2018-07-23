@@ -14,4 +14,3 @@ Process:
     • Step 4: Achieved the Img attributes are optimization to improve the page speed and made responsive.
     • Step 5: Accomplished brief.png and others are very well optimized keeping the page speed in mind. 
     • Step 6: Delivered an end-end website. 
-
